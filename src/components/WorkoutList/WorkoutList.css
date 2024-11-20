@@ -1,0 +1,19 @@
+/* src/components/WorkoutPlans.css */
+.workout-list {
+    padding: 10px;
+    text-align: center;
+    background: url('image3.jpg')
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.filter select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+}

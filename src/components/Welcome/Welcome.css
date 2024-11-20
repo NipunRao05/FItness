@@ -1,0 +1,59 @@
+/* Overall background and layout */
+.Welcome {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    background-image: url('bg1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Slight transparency for navbar */
+    z-index: 10;
+}
+
+.navbar-left .logo {
+    font-size: 30px; 
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-right .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    align-items: center; 
+}
+
+.navbar-right .navbar-links li {
+    font-size: 20px; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: white; 
+}
+
+.navbar-right .navbar-links li:hover {
+    color: green; 
+}
+
+/* Welcome message */
+.welcome-message h1 {
+    font-size: 50px;
+    margin-top: 87px;
+    font-weight: bold;
+}

@@ -1,0 +1,196 @@
+/* App.css */
+.App {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-heading {
+    text-align: center;
+    color: #00cc44;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #04ff00;
+  }
+  
+  .navbar .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar .buttons .btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar .buttons .btn-login {
+    background-color: #04ff00;
+    color: white;
+    border: 1px solid #000;
+  }
+  
+  .navbar .buttons .btn-login:hover {
+    background-color: #04ff00;
+    color: white;
+  }
+  
+  .navbar .buttons .btn-join {
+    background-color: #04ff00; /* Green color */
+    color: white;
+    border: none;
+  }
+  
+  .navbar .buttons .btn-join:hover {
+    background-color: #04ff00;
+    color: white;
+  }
+  
+  
+  .trainer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .trainer-card {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trainer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  
+  button {
+    background-color: #00cc44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #009933;
+  }
+  
+  a {
+    color: #00cc44;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .booking-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .booking-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booking-section label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .booking-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-section button {
+    background-color: #00cc44;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Footer to prevent white space if needed */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  

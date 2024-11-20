@@ -1,0 +1,63 @@
+/* Container for all workout cards */
+.workout-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+  justify-items: center; /* Align cards horizontally in their cells */
+}
+.workout-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 10px;
+    width: 250px;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 20px;
+
+    }
+
+.workout-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.workout-info {
+    margin: 10px 0;
+}
+
+.workout-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+button.view-details {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.save {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.view-details:hover,
+button.save:hover {
+    opacity: 0.9;
+}

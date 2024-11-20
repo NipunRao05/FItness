@@ -1,0 +1,226 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+    /* background-image: url('/src/assets/bg1.jpg');
+    
+    background-size: contain; */
+    
+}
+main{
+    background: url('/src/assets/bg1.jpg') no-repeat;
+    background-size: cover;
+
+
+
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+.logo{
+    
+    font-size:28px;
+}
+
+.logo img {
+    
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px; /* Adjusts the space between buttons */
+    margin-left: auto; /* Pushes the buttons to the right */
+}
+
+.auth-buttons1 {
+    display: flex;
+    gap: 10px; /* Adjusts the space between buttons */
+    margin-left: auto; /* Pushes the buttons to the right */
+}
+
+.btn-join {
+    background-color: #04ff00;
+    color: #fff;
+}
+.btn-join1 {
+    
+    background-color: #04ff00;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    /* background-image: url('bg1.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-size: 18px;
+}
+
+.cta-buttons {
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color: #04ff00;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #444;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.members-count {
+    margin-top: 40px;
+}
+
+/* Fitness Journey Section */
+.fitness-journey {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.fitness-journey h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.program {
+    max-width: 200px;
+}
+
+.program img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Comfortable Gym Section */
+.comfortable-gym {
+    padding: 50px 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+/* Merchandise Section */
+.merchandise {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.merchandise-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+/* Membership Section */
+.membership {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    color: #777;
+}
+main{
+    width: auto;
+    height:1000px;
+    object-fit: contain;
+}

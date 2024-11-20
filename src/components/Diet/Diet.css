@@ -1,0 +1,258 @@
+* Basic styling for the page */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  font-size: medium;
+  margin-top:65px;
+  background: #282c34 relative;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  height:150px;
+}
+.main-content {
+  position: relative;
+  background-image: url('/src/assets/bg1.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  z-index: 1;
+
+}
+
+.meal {
+  position: relative;
+  z-index: 2; /* Ensures meal content is above the background */
+}
+
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #00ff00;
+}
+
+.navbar .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .buttons .btn {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .buttons .btn-login {
+  background-color: #04ff00;
+  color: white;
+  border: 1px solid #000;
+}
+
+.navbar .buttons .btn-login:hover {
+  background-color: #04ff00;
+  color: white;
+}
+
+.navbar .buttons .btn-join {
+  background-color: #04ff00; /* Green color */
+  color: white;
+  border: none;
+}
+
+.navbar .buttons .btn-join:hover {
+  background-color: #04ff00;
+  color: white;
+}
+
+
+/* Toggle Button Styling */
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #04ff00;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Layout and Meal Plan Styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #222;
+  padding-top: 20px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  color: #f9f9f9;
+  overflow-y: auto;
+  border-right: 1px solid #444;
+}
+
+.sidebar h3 {
+  text-align: center;
+  color: #04ff00;
+  margin-bottom: 20px;
+}
+
+.sidebar-item {
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #444;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #444;
+}
+
+.sidebar-item.active {
+  background-color: #04ff00;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+  background-color: #e6e6e6;
+  min-height: 100vh;
+  
+}
+
+/* Meal Plan Section */
+.meal {
+  background-color: #000000;
+  margin: 10px 0;
+  padding: 10px;
+  border: 5px solid #fbfffd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.main-content h2 {
+  
+  color: white;
+}
+
+
+
+.meal h3 {
+  color: #fff;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.meal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.meal p {
+  color: #04ff00;
+  margin-top: 15px;
+}

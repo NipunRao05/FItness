@@ -1,0 +1,111 @@
+/* Container Styling */
+.workout-container {
+    padding: 20px;
+    /* background-color: black; Black background */
+    /* min-height: 100vh; */
+    color: #00ff00; /* Green text */
+    text-align: center;
+    width:1600px;
+
+
+  }
+.header-container
+{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  /* Title Styling */
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top:80px;
+    margin-bottom: 30px;
+    /*text-shadow: 2px 2px 5px #00ff00;*/
+  }
+  
+  /* Button Group Styling */
+  .button-group {
+    margin-bottom: 30px;
+  }
+  
+  .plan-button {
+    padding: 12px 25px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: black;
+    background-color: #00ff00;
+    transition: all 0.3s ease;
+  }
+  
+  .plan-button:hover {
+    background-color: #008f00;
+  }
+  
+  .plan-button.active {
+    background-color: #008f00;
+    color: #ffffff;
+    font-weight: bold;
+    transform: scale(1.1);
+  }
+  
+  /* Muscle Group Styling */
+  .muscle-group {
+    margin: 40px 0;
+  }
+  
+  .muscle-group h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  
+  /* Exercise Cards Layout */
+  .exercises {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px; /* Increased spacing between cards */
+  }
+  
+  /* Individual Exercise Card Styling */
+  .exercise-card {
+    background-color: #111; /* Slightly lighter black for contrast */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.3); /* Green glow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .exercise-card:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    border-color: #00ff00;
+    /* box-shadow: 0px 6px 15px rgba(0, 255, 0, 0.6); */
+  }
+  
+  /* Exercise GIF Styling */
+  .exercise-gif {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Exercise Name Styling */
+  .exercise-card p {
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .button{
+    text-align: left;
+  }
